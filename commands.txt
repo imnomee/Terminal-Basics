@@ -13,3 +13,9 @@ echo - takes the argument and comments on the output
 Spaces betwen the words / arguments are consumed by the shell. so if you add 2 spaces. it will change to one.
 if you want to keep the spaces you can use the quotes for the arugment to preserve the spaces.
 
+you shouldn't use spaces in file names. as it will create problem accessing through terminal. or you will always have to access within quotes
+ls -a will display files even hidden
+ls -t will display list with created first order
+cat -n will siplay the contents with lines number in start
+history - history keeps the commands used in current session
+cd .. - is used change to parent directory
