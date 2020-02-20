@@ -1,0 +1,7 @@
+mkdir
+cd
+cd - is for Change Directory
+pwd - print working directory / current directory
+ls - listing files
+whoami - know the current user
+cat - concatinates / joines the files together
