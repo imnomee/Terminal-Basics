@@ -5,3 +5,11 @@ pwd - print working directory / current directory
 ls - listing files
 whoami - know the current user
 cat - concatinates / joines the files together
+^C - is Ctrl + C to cancel the current command
+clear - clears the current screen / Ctrl + L is the shortcut
+If you run only cat filename it will display file contents
+if you use cat firstfile secondfile it will display both files content joined
+echo - takes the argument and comments on the output
+Spaces betwen the words / arguments are consumed by the shell. so if you add 2 spaces. it will change to one.
+if you want to keep the spaces you can use the quotes for the arugment to preserve the spaces.
+
