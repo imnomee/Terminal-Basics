@@ -19,3 +19,19 @@ ls -t will display list with created first order
 cat -n will siplay the contents with lines number in start
 history - history keeps the commands used in current session
 cd .. - is used change to parent directory
+cd . is for current directory. some sh files can only be ran from outside the directory so ./etc.sh is used
+cd / will jump to the root directory
+cd /Users/nomee will take you to the current user directory
+there are wildcards used in terminal.
+less - less will display a large file in pager style.
+less command will open the file in new space and pressing q will get you back to terminal
+more - more command will dispay a large file or any file in pager style by displaying the contents right on the terminal
+cp - will let you copy files or directories. example cp onefile destinationFile
+to copy directories use cp -r it will copy directories and files within directories.
+if you want to rename the file, you can use move command: mv
+example: mv commands.txt cmd.txt
+or you can move from one directory to another same as cp
+rm - remove files or directories. these files are not recoverable. these won't go to trash
+to remove directories you can use rm -r it will remove directories and files within them
+man - manual is used for documentation for any command example: man ls
+man displays the documentation in less pager style
